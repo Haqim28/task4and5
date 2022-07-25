@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+.container {
+    height: 93vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+}
+
+/* ==== Main Page ==== */
+
+nav {
+    display: flex;
+    height: 7vh;
+    background-color: rgb(236, 236, 236);
+}
+
+nav div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    padding-left: 50px;
+}
+
+nav .left-side img {
+    margin-right: 40px;
+}
+
+nav .left-side a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .right-side {
+    padding-right: 50px;
+    justify-content: end;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* ==== Akhir Main Page ==== */
+
+/* ==== Form Contact Me ==== */
+.form-contact-me {
+    width: 400px
+}
+
+.form-contact-me div {
+    margin-bottom: 20px;
+}
+
+.form-contact-me div h1 {
+    text-align: center;
+}
+.form-contact-me div label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-contact-me div input,select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    padding: 10px;
+    resize: none;
+}
+
+.form-contact-me button {
+    background-color: rgb(0,0,99);
+    color: white;
+    margin-left:300px;
+    font-size: 16px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-contact-me button:hover {
+    background-color: darkgray;
+    color:black;
+}
+
+/* ==== Akhir Form Contact Me ==== */
+
+/* ==== Main Page ==== */
+.wrapper {
+    width: 85%;
+    padding: 10;
+    display: flex;
+}
+.wrapper{
+    background-color: white;
+    width: fit-content;
+}
+.wrapper .left-side {
+        flex: 70%;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+.wrapper .right-side {
+    flex: 30%;
+    padding-left: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+.wrapper .left-side p{
+    text-align: justify;
+}
+.wrapper .right-side p {
+    color: gray;
+    margin: 0;
+    font-size: small;
+    align-content: center;
+}
+
+.wrapper .left-side a{
+    text-decoration:none;
+    color: rgb(65, 63, 63);
+}
+.wrapper .left-side .sosmed .sosmed-wrapper {
+    display: flex;
+}
+
+.wrapper .left-side button{
+    background-color: black;
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.wrapper .left-side .sosmed .sosmed-wrapper a {
+    color: black;
+}
+.contact-cv{
+    display: flex;
+}
+
+.contact-cv h5{
+    margin-left: 20px;
+}
+.icon{
+    background-color: black;
+    margin-top: 20px;
+}
+.sosmed-wrapper i {
+    color: white;
+}
+
+
+.wrapper .left-side .sosmed .icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.card{
+    margin: 0;
+    width: fit-content;
+    width: 200px; height: auto; margin: 25px; padding-bottom: 10px; text-align: center; margin-left: 100px; border-radius: 20px; border-color: white; background-color: rgb(194, 190, 185);
+}
+
+
+/* ==== Akhir Main Page ==== */
+
+
+/* ==== My Project ==== */
+
+.project-form{
+	border-style:solid;
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;	
+}
+
+.project-form .form-container{
+	width: 500px;
+}
+
+
+.project-form .form-container h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.project-form .form-container form label{
+	font-size:20px;
+	font-weight;400;
+}
+
+.project-form form input, textarea, select{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 400px;
+	padding: 8px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background: #f4f3f3;
+	border: 1px solid #c4c4c4;
+	border-radius: 8px;
+}
+
+.project-form form textarea{
+	font-weight:20px;	
+}
+
+.project-form .time-start-end{
+	display:flex;
+}
+
+
+.techno{
+	display:flex;
+	width:70%;
+}
+.techno label{
+	font-size:5px;	
+	padding-left:20px;	
+}
+.techno input{
+	margin-left:20px;
+}
+
+.project-form form .upload-img-project-group{
+	width:100%;
+	font-size:20px;
+	font-weight:400px;
+	padding:8px;
+	margin-top;5px;
+	margin-bottom:20px;
+	background: #f4f3f3;
+	border: 1px solid #c4c4c4;
+	border-radius:8px;
+	cursor:pointer;
+}
+
+.project-form form .upload-img-project-group label p{
+	font-size:15px;
+}
+.project-form form .upload-img-project-group label img{
+	text-align:right;
+	justify-content:right;
+	
+}
+
+.project-form form .upload-img-project-group label{
+	cursor:pointer;
+	display;flex;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.project-form form .upload-img-project-group input{
+	width:90%;
+	border:none;
+	cursor:pointer;
+}
+
+
+.project-form form .button-group{
+	text-align: right;
+}
+
+.project-form form button{
+	margin-top:50px;
+	padding:8px 20px;
+	font-size:17px;
+	background:#ec4d37;
+	border-radius:8px;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+
+}
+
+/* ==== Akhir Myproject ==== */
+
+
+
+/* ==== myproject list ==== */
+
+.project-list{
+	display:flex;
+	height-auto;
+	flex:wrap;
+	flex-direction:row;	
+}
+
+.project-list-item{
+	border:solid 1 px;
+	background-color:graydark;
+	width:200px;
+	border-radius:10px;	
+	border:solid 5px;
+	margin:10px;
+	border-color:black;
+	height-auto;
+	overflow:hidden;
+}
+
+.project-list-item .project-image img{
+	width:200px;
+	height:200px;
+}
+
+.project-list-item .project-content .description {
+	margin-top:10px;
+	text-align:justify;
+}
+
+.project-list-item .project-content .group-button {
+	display:flex;
+}
+
+
+.project-list-item .project-content .group-button button{
+	background-color:gray;
+	color:white;
+	font-size:15px;
+	width:50%;
+}
+
+
+
+/* ==== Akhir Myprojectlist ==== */
